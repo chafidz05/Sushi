@@ -25,7 +25,7 @@
       rel="stylesheet"
     />
     <!-- RESET CSS -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body class="d-flex flex-column h-1">
     <!-- MAIN -->
@@ -33,16 +33,16 @@
       <!-- HEADER -->
       <header class="position-fixed w-100">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#">
+        <nav class="navbar navbar-expand-lg bg-primary ">
+          <div class="container px-5 fw-bolder ">
+            <a class="navbar-brand" href="#">
               <img
                 src="img/logo.png"
                 alt=""
                 width="30"
-                class="d-inline-block align-text-top"
+                class="d-inline-block align-text-top "
               />
-              Sushi
+              <span class="text-text">Sushi</span>
             </a>
             <button
               class="navbar-toggler"
@@ -55,22 +55,22 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse " id="navbarNav">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active text-text" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link text-text" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#popular">Popular</a>
+                  <a class="nav-link text-text" href="#popular">Popular</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#recently">Recently</a>
+                  <a class="nav-link text-text" href="#recently">Recently</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#newsletter">Newsletter</a>
+                  <a class="nav-link text-text" href="#newsletter">Newsletter</a>
                 </li>
               </ul>
             </div>
@@ -80,12 +80,12 @@
       
 
       <!-- HOME -->
-      <section class="bg-danger py-5" id="home">
+      <section class="bg-primary py-5 text-text" id="home">
         <div class="container p-5 my-5">
           <div class="row gx-5 align-items-center justify-content-center ">
             <div class="col-lg-8 col-xl-7 col-xxl-6 ">
-              <div class="my-5 text-center text-xl-start">
-                <h1 class=" fw-bold text-white mb-2">
+              <div class="my-5 text-center  text-xl-start">
+                <h1 class=" fw-bold mb-2">
                   Enjoy Delicious
                   <div class="">
                     <img
@@ -97,12 +97,13 @@
                     Sushi Food
                   </div>
                 </h1>
-                <p class="lead fw-normal text-white-50 mb-4">
-                  Enjoy a good dinner with the best dishes in the restaurant and
-                  improve your day.
+                <p class="lead mb-4">
+                  Enjoy a good dinner with the best <br>
+                  dishes in the restaurant and improve <br>
+                  your day.
                 </p>
                 <a
-                  class="btn btn-primary rounded-pill btn-lg px-4 me-sm-3"
+                  class="btn bg-secondary text-white fw-bold rounded-pill btn-lg px-4 me-sm-3"
                   href="#contact"
                 >
                   Order Now
@@ -123,7 +124,7 @@
       </section>
       
       <!-- ABOUT -->
-      <section class="py-5 bg-dark" id="about">
+      <section class="py-5 bg-primary text-text" id="about">
         <div class="container px-5 my-5">
           <div class="row gx-5">
             <div class="col-lg-6 mb-5 mb-lg-0">
@@ -137,8 +138,8 @@
             <div class="col-lg-6">
               <div class="row gx-5">
                 <div class="my-5 text-center text-xl-start">
-                  <h5 class="text-danger">About Us</h5>
-                  <h1 class="fw-bold text-white mb-2">
+                  <h5 class="">About Us</h5>
+                  <h1 class="mb-2">
                     We Provide
                     <img
                       src="img/about-sushi-title.png"
@@ -147,10 +148,10 @@
                       height="50px"
                     />
                   </h1>
-                  <h1 class="fw-bold text-white mb-2">
+                  <h1 class=" mb-2">
                     Healthy Food
                   </h1>
-                  <p class="lead fw-normal text-white-50 mb-4">
+                  <p class="lead mb-4">
                     Food comes to us from our relatives, whether they 
                     have wings or roots. This is how we consider food, 
                     it also has a culture. It has a history that passes 
@@ -163,7 +164,7 @@
       </section>
 
       <!-- POPULAR -->
-      <section class="py-5 bg-danger" id="popular">
+      <section class="py-5 bg-primary text-text" id="popular">
         <div class="container p-5 my-5">
           <div class="row gx-5 justify-content-center mb-5">
             <div class="col-lg-8 col-xl-6">
@@ -219,18 +220,18 @@
       </section>
 
       <!-- RECENTLY -->
-      <section class="py-5 bg-dark" id="recently">
+      <section class="py-5 bg-primary" id="recently">
         <div class="container p-5 my-5">
           <div class="row gx-5">
             <div class="col-lg-6 mb-5 mb-lg-0">
               <div class="row gx-5">
-                <div class="my-5 text-center text-xl-start">
+                <div class="my-5 text-center text-xl-start text-text">
                   <h5 class="text-danger">Recently Added</h5>
-                  <h1 class="fw-bold text-white mb-2">
+                  <h1 class=" mb-2">
                     Sushi Samurai
                     
                   </h1>
-                  <h1 class="fw-bold text-white mb-2">
+                  <h1 class=" mb-2">
                     Salmon Cheese
                     <img
                       src="img/spinach-leaf.png"
@@ -239,13 +240,13 @@
                       height="50px"
                     />
                   </h1>
-                  <p class="lead fw-normal text-white-50 mb-4">
-                    Take a look at what's new. And do not
-                    deprive yourself of a good meal, enjoy and
+                  <p class="lead mb-4">
+                    Take a look at what's new. And do not <br>
+                    deprive yourself of a good meal, enjoy and <br>
                     be happy.
                   </p>
                   <a
-                    class="btn btn-primary rounded-pill btn-lg px-4 me-sm-3"
+                    class="btn text-bg-secondary text-white fw-bold rounded-pill btn-lg px-4 me-sm-3"
                     href="#contact"
                   >
                     Order Now
@@ -266,7 +267,7 @@
 
       <!-- Newsletter -->
       <section class="py-5 bg-primary" id="newsletter">
-        <div class="container px-5 my-5 bg-success rounded-5">
+        <div class="container px-5 my-5 bg-text rounded-5">
           <div class="">
             <div class="row gx-5">
               <div class="col-lg-6">
@@ -280,7 +281,7 @@
               <div class="col-lg-6">
                 <div class="row gx-5">
                   <div class="my-5 text-center text-xl-start">
-                    <h5 class="text-danger">Newsletter</h5>
+                    <h5 class="text-secondary">Newsletter</h5>
                     <h1 class="fw-bold text-white mb-2">
                       Subscribe For <br>
                       Offer Updates
@@ -288,7 +289,7 @@
                     <form>
                       <div class="">
                         <input type="email" class="form-control rounded-5 p-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
-                        <label for="exampleInputEmail1" class="bg-danger rounded-5 p-3 text-white mt-3">Subscribe</label>
+                        <label for="exampleInputEmail1" class="bg-secondary rounded-5 p-3 text-white mt-3">Subscribe</label>
                       </div>
                     </form>
                   </div>
