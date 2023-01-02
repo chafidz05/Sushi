@@ -1,6 +1,6 @@
 $theme-colors: (
   "primary": #fff1eb,
-  "text": #68544b,
+  "text": hsl(19, 64%, 54%),
   "secondary": hsl(19, 64%, 54%),
   "first": hsl(19, 64%, 52%),
   "body": hsl(19, 100%, 97%)
@@ -11,3 +11,24 @@ $colors: (
   "pink":       #fff1eb,
   "brown": #68544b
 );
+
+$font-family-sans-serif:
+  // Cross-platform generic font family (default user interface font)
+  system-ui,
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Windows
+  "Segoe UI",
+  // Android
+  Roboto,
+  // older macOS and iOS
+  "Helvetica Neue"
+  // Linux
+  "Noto Sans",
+  "Liberation Sans",
+  // Basic web fallback
+  Arial,
+  // Sans serif fallback
+  sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
