@@ -1,17 +1,8 @@
 $theme-colors: (
   "primary": #fff1eb,
-  "text": hsl(19, 64%, 54%),
+  "text": hsl(19, 64%, 53%),
   "secondary": hsl(19, 64%, 54%),
-  "first": hsl(19, 64%, 52%),
-  "body": hsl(19, 100%, 97%)
-
 );
-
-$colors: (
-  "pink":       #fff1eb,
-  "brown": #68544b
-);
-
 $font-family-sans-serif:
   // Cross-platform generic font family (default user interface font)
   system-ui,
